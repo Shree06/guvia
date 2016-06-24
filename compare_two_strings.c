@@ -15,7 +15,8 @@ void main()
 
     printf("Enter second string: ");
     scanf("%s",str2);
-
+    
+    //Comparing the two strings without using strcat() function
     while(str1[i]&&str2[i]!='\0')
     {
       if(str1[i]!=str2[i])
